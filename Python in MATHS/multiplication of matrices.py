@@ -1,0 +1,60 @@
+# uncomment the below statement to run
+
+# print("Program to calculate matrix multiplication of matrices of order 3X3")
+# a11=float(input("enter the value of a11:"))
+# a12=float(input("enter the value of a12:"))
+# a13=float(input("enter the value of a13:"))
+# a21=float(input("enter the value of a21:"))
+# a22=float(input("enter the value of a22:"))
+# a23=float(input("enter the value of a23:"))
+# a31=float(input("enter the value of a31:"))
+# a32=float(input("enter the value of a32:"))
+# a33=float(input("enter the value of a33:"))
+# r1=(a11),(a12),(a13)
+# r2=(a21),(a22),(a23)
+# r3=(a31),(a32),(a33)
+# print("the given matrix A is represented as \n",r1,"\n",r2,"\n",r3)
+# b11=float(input("enter the value of b11:"))
+# b12=float(input("enter the value of b12:"))
+# b13=float(input("enter the value of b13:"))
+# b21=float(input("enter the value of b21:"))
+# b22=float(input("enter the value of b22:"))
+# b23=float(input("enter the value of b23:"))
+# b31=float(input("enter the value of b31:"))
+# b32=float(input("enter the value of b32:"))
+# b33=float(input("enter the value of b33:"))
+# s1=(b11),(b12),(b13)
+# s2=(b21),(b22),(b23)
+# s3=(b31),(b32),(b33)
+# print("the given matrix B is represented as \n",s1,"\n",s2,"\n",s3)
+# ab11=float(((a11)*(b11))+((a12)*(b21))+((a13)*(b31)))
+# ab12=float(((a11)*(b12))+((a12)*(b22))+((a13)*(b32)))
+# ab13=float(((a11)*(b13))+((a12)*(b23))+((a13)*(b33)))
+# ab21=float(((a21)*(b11))+((a22)*(b21))+((a23)*(b31)))
+# ab22=float(((a21)*(b12))+((a22)*(b22))+((a23)*(b32)))
+# ab23=float(((a21)*(b13))+((a22)*(b23))+((a23)*(b33)))
+# ab31=float(((a31)*(b11))+((a32)*(b21))+((a33)*(b31)))
+# ab32=float(((a31)*(b12))+((a32)*(b22))+((a33)*(b32)))
+# ab33=float(((a31)*(b13))+((a32)*(b23))+((a33)*(b33)))
+# t1=(ab11),(ab12),(ab13)
+# t2=(ab21),(ab22),(ab23)
+# t3=(ab31),(ab32),(ab33)
+# print("the multiplication of matrices A and B is AB:\n",t1,"\n",t2,"\n",t3)
+# print("elements of matrix AB are\n",ab11," ",ab12," ",ab13,"\n",ab21," ",ab22," ",ab23,"\n",ab31," ",ab32," ",ab33)
+
+
+
+# other method of multipication of two matrices of order mXn1 and n1Xn
+# using pandas library
+import pandas as pd
+
+m1=[[1,2,3],[4,5,6],[7,8,9]]
+m11=pd.DataFrame(m1)
+print(m11)
+print(m11.shape)
+m2=[[9,8,7],[6,5,4],[3,2,1]]
+m21=pd.DataFrame(m2)
+print(m21)
+print(m21.shape)
+m22=m11.dot(m21)
+print("matrix multiplication is :\n",m22)
