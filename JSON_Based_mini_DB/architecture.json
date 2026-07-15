@@ -1,0 +1,1370 @@
+{
+  "entities": [
+    {
+      "id": "module:config",
+      "type": "module",
+      "name": "config",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\config.py"
+    },
+    {
+      "id": "module:os",
+      "type": "external",
+      "name": "os",
+      "file": "external"
+    },
+    {
+      "id": "module:sys",
+      "type": "external",
+      "name": "sys",
+      "file": "external"
+    },
+    {
+      "id": "class:config.DataStructure",
+      "type": "class",
+      "name": "config.DataStructure",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\config.py"
+    },
+    {
+      "id": "function:config.DataStructure.__init__",
+      "type": "method",
+      "name": "config.DataStructure.__init__",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\config.py"
+    },
+    {
+      "id": "function:len",
+      "type": "external",
+      "name": "len",
+      "file": "external"
+    },
+    {
+      "id": "function:ValueError",
+      "type": "external",
+      "name": "ValueError",
+      "file": "external"
+    },
+    {
+      "id": "function:config.DataStructure.info",
+      "type": "method",
+      "name": "config.DataStructure.info",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\config.py"
+    },
+    {
+      "id": "function:print",
+      "type": "external",
+      "name": "print",
+      "file": "external"
+    },
+    {
+      "id": "module:main",
+      "type": "module",
+      "name": "main",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\main.py"
+    },
+    {
+      "id": "module:src.core.database",
+      "type": "external",
+      "name": "src.core.database",
+      "file": "external"
+    },
+    {
+      "id": "module:src.operations.crud",
+      "type": "external",
+      "name": "src.operations.crud",
+      "file": "external"
+    },
+    {
+      "id": "function:main.print_menu",
+      "type": "function",
+      "name": "main.print_menu",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\main.py"
+    },
+    {
+      "id": "function:main.parse_input",
+      "type": "function",
+      "name": "main.parse_input",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\main.py"
+    },
+    {
+      "id": "function:strip",
+      "type": "external",
+      "name": "strip",
+      "file": "external"
+    },
+    {
+      "id": "function:raw.split",
+      "type": "external",
+      "name": "raw.split",
+      "file": "external"
+    },
+    {
+      "id": "function:pair.split",
+      "type": "external",
+      "name": "pair.split",
+      "file": "external"
+    },
+    {
+      "id": "function:value.isdigit",
+      "type": "external",
+      "name": "value.isdigit",
+      "file": "external"
+    },
+    {
+      "id": "function:input",
+      "type": "external",
+      "name": "input",
+      "file": "external"
+    },
+    {
+      "id": "function:int",
+      "type": "external",
+      "name": "int",
+      "file": "external"
+    },
+    {
+      "id": "function:isdigit",
+      "type": "external",
+      "name": "isdigit",
+      "file": "external"
+    },
+    {
+      "id": "function:float",
+      "type": "external",
+      "name": "float",
+      "file": "external"
+    },
+    {
+      "id": "function:value.replace",
+      "type": "external",
+      "name": "value.replace",
+      "file": "external"
+    },
+    {
+      "id": "function:main.main",
+      "type": "function",
+      "name": "main.main",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\main.py"
+    },
+    {
+      "id": "function:src.core.database.Database",
+      "type": "external",
+      "name": "src.core.database.Database",
+      "file": "external"
+    },
+    {
+      "id": "function:print_menu",
+      "type": "external",
+      "name": "print_menu",
+      "file": "external"
+    },
+    {
+      "id": "function:parse_input",
+      "type": "external",
+      "name": "parse_input",
+      "file": "external"
+    },
+    {
+      "id": "function:src.operations.crud.insert_record",
+      "type": "external",
+      "name": "src.operations.crud.insert_record",
+      "file": "external"
+    },
+    {
+      "id": "function:src.operations.crud.find_records",
+      "type": "external",
+      "name": "src.operations.crud.find_records",
+      "file": "external"
+    },
+    {
+      "id": "function:src.operations.crud.update_records",
+      "type": "external",
+      "name": "src.operations.crud.update_records",
+      "file": "external"
+    },
+    {
+      "id": "function:src.operations.crud.delete_records",
+      "type": "external",
+      "name": "src.operations.crud.delete_records",
+      "file": "external"
+    },
+    {
+      "id": "function:src.operations.crud.show_all_records",
+      "type": "external",
+      "name": "src.operations.crud.show_all_records",
+      "file": "external"
+    },
+    {
+      "id": "module:__init__",
+      "type": "module",
+      "name": "__init__",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\__init__.py"
+    },
+    {
+      "id": "module:core.database",
+      "type": "module",
+      "name": "core.database",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\core\\database.py"
+    },
+    {
+      "id": "module:typing",
+      "type": "external",
+      "name": "typing",
+      "file": "external"
+    },
+    {
+      "id": "module:src.core.storage",
+      "type": "external",
+      "name": "src.core.storage",
+      "file": "external"
+    },
+    {
+      "id": "module:src.core.schema_manager",
+      "type": "external",
+      "name": "src.core.schema_manager",
+      "file": "external"
+    },
+    {
+      "id": "module:src.config",
+      "type": "external",
+      "name": "src.config",
+      "file": "external"
+    },
+    {
+      "id": "module:src.operations.query",
+      "type": "external",
+      "name": "src.operations.query",
+      "file": "external"
+    },
+    {
+      "id": "class:core.database.Database",
+      "type": "class",
+      "name": "core.database.Database",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\core\\database.py"
+    },
+    {
+      "id": "function:core.database.Database.__init__",
+      "type": "method",
+      "name": "core.database.Database.__init__",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\core\\database.py"
+    },
+    {
+      "id": "function:os.path.join",
+      "type": "external",
+      "name": "os.path.join",
+      "file": "external"
+    },
+    {
+      "id": "function:self.load_schema",
+      "type": "external",
+      "name": "self.load_schema",
+      "file": "external"
+    },
+    {
+      "id": "function:core.database.Database._load_data",
+      "type": "method",
+      "name": "core.database.Database._load_data",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\core\\database.py"
+    },
+    {
+      "id": "function:src.core.storage.read_json",
+      "type": "external",
+      "name": "src.core.storage.read_json",
+      "file": "external"
+    },
+    {
+      "id": "function:core.database.Database._write_data",
+      "type": "method",
+      "name": "core.database.Database._write_data",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\core\\database.py"
+    },
+    {
+      "id": "function:src.core.storage.write_json",
+      "type": "external",
+      "name": "src.core.storage.write_json",
+      "file": "external"
+    },
+    {
+      "id": "function:core.database.Database.load_schema",
+      "type": "method",
+      "name": "core.database.Database.load_schema",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\core\\database.py"
+    },
+    {
+      "id": "function:os.path.exists",
+      "type": "external",
+      "name": "os.path.exists",
+      "file": "external"
+    },
+    {
+      "id": "function:FileNotFoundError",
+      "type": "external",
+      "name": "FileNotFoundError",
+      "file": "external"
+    },
+    {
+      "id": "function:core.database.Database.insert",
+      "type": "method",
+      "name": "core.database.Database.insert",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\core\\database.py"
+    },
+    {
+      "id": "function:self._load_data",
+      "type": "external",
+      "name": "self._load_data",
+      "file": "external"
+    },
+    {
+      "id": "function:src.core.schema_manager.validate",
+      "type": "external",
+      "name": "src.core.schema_manager.validate",
+      "file": "external"
+    },
+    {
+      "id": "function:data.append",
+      "type": "external",
+      "name": "data.append",
+      "file": "external"
+    },
+    {
+      "id": "function:self._write_data",
+      "type": "external",
+      "name": "self._write_data",
+      "file": "external"
+    },
+    {
+      "id": "function:core.database.Database.find",
+      "type": "method",
+      "name": "core.database.Database.find",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\core\\database.py"
+    },
+    {
+      "id": "function:src.operations.query.advanced_filter",
+      "type": "external",
+      "name": "src.operations.query.advanced_filter",
+      "file": "external"
+    },
+    {
+      "id": "function:core.database.Database.update",
+      "type": "method",
+      "name": "core.database.Database.update",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\core\\database.py"
+    },
+    {
+      "id": "function:enumerate",
+      "type": "external",
+      "name": "enumerate",
+      "file": "external"
+    },
+    {
+      "id": "function:core.database.Database.delete",
+      "type": "method",
+      "name": "core.database.Database.delete",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\core\\database.py"
+    },
+    {
+      "id": "function:core.database.Database.count",
+      "type": "method",
+      "name": "core.database.Database.count",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\core\\database.py"
+    },
+    {
+      "id": "function:core.database.Database.show_all",
+      "type": "method",
+      "name": "core.database.Database.show_all",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\core\\database.py"
+    },
+    {
+      "id": "module:core.schema_manager",
+      "type": "module",
+      "name": "core.schema_manager",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\core\\schema_manager.py"
+    },
+    {
+      "id": "module:json",
+      "type": "external",
+      "name": "json",
+      "file": "external"
+    },
+    {
+      "id": "function:core.schema_manager.validate",
+      "type": "function",
+      "name": "core.schema_manager.validate",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\core\\schema_manager.py"
+    },
+    {
+      "id": "function:schema.items",
+      "type": "external",
+      "name": "schema.items",
+      "file": "external"
+    },
+    {
+      "id": "function:TYPE_MAP.get",
+      "type": "external",
+      "name": "TYPE_MAP.get",
+      "file": "external"
+    },
+    {
+      "id": "function:isinstance",
+      "type": "external",
+      "name": "isinstance",
+      "file": "external"
+    },
+    {
+      "id": "function:type",
+      "type": "external",
+      "name": "type",
+      "file": "external"
+    },
+    {
+      "id": "function:core.schema_manager.validate_records",
+      "type": "function",
+      "name": "core.schema_manager.validate_records",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\core\\schema_manager.py"
+    },
+    {
+      "id": "function:core.schema_manager.load_schema",
+      "type": "function",
+      "name": "core.schema_manager.load_schema",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\core\\schema_manager.py"
+    },
+    {
+      "id": "function:open",
+      "type": "external",
+      "name": "open",
+      "file": "external"
+    },
+    {
+      "id": "function:json.load",
+      "type": "external",
+      "name": "json.load",
+      "file": "external"
+    },
+    {
+      "id": "module:core.storage",
+      "type": "module",
+      "name": "core.storage",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\core\\storage.py"
+    },
+    {
+      "id": "module:tempfile",
+      "type": "external",
+      "name": "tempfile",
+      "file": "external"
+    },
+    {
+      "id": "function:core.storage.read_json",
+      "type": "function",
+      "name": "core.storage.read_json",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\core\\storage.py"
+    },
+    {
+      "id": "function:core.storage.write_json",
+      "type": "function",
+      "name": "core.storage.write_json",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\core\\storage.py"
+    },
+    {
+      "id": "function:os.path.dirname",
+      "type": "external",
+      "name": "os.path.dirname",
+      "file": "external"
+    },
+    {
+      "id": "function:os.replace",
+      "type": "external",
+      "name": "os.replace",
+      "file": "external"
+    },
+    {
+      "id": "function:tempfile.NamedTemporaryFile",
+      "type": "external",
+      "name": "tempfile.NamedTemporaryFile",
+      "file": "external"
+    },
+    {
+      "id": "function:json.dump",
+      "type": "external",
+      "name": "json.dump",
+      "file": "external"
+    },
+    {
+      "id": "function:IOError",
+      "type": "external",
+      "name": "IOError",
+      "file": "external"
+    },
+    {
+      "id": "function:core.storage.append_json",
+      "type": "function",
+      "name": "core.storage.append_json",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\core\\storage.py"
+    },
+    {
+      "id": "function:core.storage.clear_json",
+      "type": "function",
+      "name": "core.storage.clear_json",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\core\\storage.py"
+    },
+    {
+      "id": "module:core.__init__",
+      "type": "module",
+      "name": "core.__init__",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\core\\__init__.py"
+    },
+    {
+      "id": "module:operations.crud",
+      "type": "module",
+      "name": "operations.crud",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\operations\\crud.py"
+    },
+    {
+      "id": "function:operations.crud.insert_record",
+      "type": "function",
+      "name": "operations.crud.insert_record",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\operations\\crud.py"
+    },
+    {
+      "id": "function:db.insert",
+      "type": "external",
+      "name": "db.insert",
+      "file": "external"
+    },
+    {
+      "id": "function:operations.crud.find_records",
+      "type": "function",
+      "name": "operations.crud.find_records",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\operations\\crud.py"
+    },
+    {
+      "id": "function:db.find",
+      "type": "external",
+      "name": "db.find",
+      "file": "external"
+    },
+    {
+      "id": "function:operations.crud.update_records",
+      "type": "function",
+      "name": "operations.crud.update_records",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\operations\\crud.py"
+    },
+    {
+      "id": "function:db.update",
+      "type": "external",
+      "name": "db.update",
+      "file": "external"
+    },
+    {
+      "id": "function:operations.crud.delete_records",
+      "type": "function",
+      "name": "operations.crud.delete_records",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\operations\\crud.py"
+    },
+    {
+      "id": "function:db.delete",
+      "type": "external",
+      "name": "db.delete",
+      "file": "external"
+    },
+    {
+      "id": "function:operations.crud.count_records",
+      "type": "function",
+      "name": "operations.crud.count_records",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\operations\\crud.py"
+    },
+    {
+      "id": "function:db.count",
+      "type": "external",
+      "name": "db.count",
+      "file": "external"
+    },
+    {
+      "id": "function:operations.crud.show_all_records",
+      "type": "function",
+      "name": "operations.crud.show_all_records",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\operations\\crud.py"
+    },
+    {
+      "id": "function:db.show_all",
+      "type": "external",
+      "name": "db.show_all",
+      "file": "external"
+    },
+    {
+      "id": "module:operations.query",
+      "type": "module",
+      "name": "operations.query",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\operations\\query.py"
+    },
+    {
+      "id": "function:operations.query.match_query",
+      "type": "function",
+      "name": "operations.query.match_query",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\operations\\query.py"
+    },
+    {
+      "id": "function:query.items",
+      "type": "external",
+      "name": "query.items",
+      "file": "external"
+    },
+    {
+      "id": "function:operations.query.filter_records",
+      "type": "function",
+      "name": "operations.query.filter_records",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\operations\\query.py"
+    },
+    {
+      "id": "function:match_query",
+      "type": "external",
+      "name": "match_query",
+      "file": "external"
+    },
+    {
+      "id": "function:operations.query.advanced_filter",
+      "type": "function",
+      "name": "operations.query.advanced_filter",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\operations\\query.py"
+    },
+    {
+      "id": "function:filtered.append",
+      "type": "external",
+      "name": "filtered.append",
+      "file": "external"
+    },
+    {
+      "id": "function:condition.items",
+      "type": "external",
+      "name": "condition.items",
+      "file": "external"
+    },
+    {
+      "id": "function:str",
+      "type": "external",
+      "name": "str",
+      "file": "external"
+    },
+    {
+      "id": "module:operations.__init__",
+      "type": "module",
+      "name": "operations.__init__",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\operations\\__init__.py"
+    },
+    {
+      "id": "module:utils.__init__",
+      "type": "module",
+      "name": "utils.__init__",
+      "file": "D:\\Excited Nuclei\\Python Lectures\\Intermidiate Python\\Projects\\JSON_Based_mini_DB\\src\\utils\\__init__.py"
+    }
+  ],
+  "relations": [
+    {
+      "src": "module:config",
+      "dst": "module:os",
+      "type": "imports"
+    },
+    {
+      "src": "module:config",
+      "dst": "module:sys",
+      "type": "imports"
+    },
+    {
+      "src": "module:config",
+      "dst": "class:config.DataStructure",
+      "type": "contains"
+    },
+    {
+      "src": "class:config.DataStructure",
+      "dst": "function:config.DataStructure.__init__",
+      "type": "contains"
+    },
+    {
+      "src": "function:config.DataStructure.__init__",
+      "dst": "function:len",
+      "type": "calls"
+    },
+    {
+      "src": "function:config.DataStructure.__init__",
+      "dst": "function:ValueError",
+      "type": "calls"
+    },
+    {
+      "src": "class:config.DataStructure",
+      "dst": "function:config.DataStructure.info",
+      "type": "contains"
+    },
+    {
+      "src": "function:config.DataStructure.info",
+      "dst": "function:print",
+      "type": "calls"
+    },
+    {
+      "src": "module:main",
+      "dst": "module:os",
+      "type": "imports"
+    },
+    {
+      "src": "module:main",
+      "dst": "module:sys",
+      "type": "imports"
+    },
+    {
+      "src": "module:main",
+      "dst": "module:src.core.database",
+      "type": "imports"
+    },
+    {
+      "src": "module:main",
+      "dst": "module:src.operations.crud",
+      "type": "imports"
+    },
+    {
+      "src": "module:main",
+      "dst": "function:main.print_menu",
+      "type": "contains"
+    },
+    {
+      "src": "function:main.print_menu",
+      "dst": "function:print",
+      "type": "calls"
+    },
+    {
+      "src": "module:main",
+      "dst": "function:main.parse_input",
+      "type": "contains"
+    },
+    {
+      "src": "function:main.parse_input",
+      "dst": "function:strip",
+      "type": "calls"
+    },
+    {
+      "src": "function:main.parse_input",
+      "dst": "function:raw.split",
+      "type": "calls"
+    },
+    {
+      "src": "function:main.parse_input",
+      "dst": "function:pair.split",
+      "type": "calls"
+    },
+    {
+      "src": "function:main.parse_input",
+      "dst": "function:value.isdigit",
+      "type": "calls"
+    },
+    {
+      "src": "function:main.parse_input",
+      "dst": "function:input",
+      "type": "calls"
+    },
+    {
+      "src": "function:main.parse_input",
+      "dst": "function:print",
+      "type": "calls"
+    },
+    {
+      "src": "function:main.parse_input",
+      "dst": "function:int",
+      "type": "calls"
+    },
+    {
+      "src": "function:main.parse_input",
+      "dst": "function:isdigit",
+      "type": "calls"
+    },
+    {
+      "src": "function:main.parse_input",
+      "dst": "function:float",
+      "type": "calls"
+    },
+    {
+      "src": "function:main.parse_input",
+      "dst": "function:value.replace",
+      "type": "calls"
+    },
+    {
+      "src": "module:main",
+      "dst": "function:main.main",
+      "type": "contains"
+    },
+    {
+      "src": "function:main.main",
+      "dst": "function:strip",
+      "type": "calls"
+    },
+    {
+      "src": "function:main.main",
+      "dst": "function:src.core.database.Database",
+      "type": "calls"
+    },
+    {
+      "src": "function:main.main",
+      "dst": "function:print_menu",
+      "type": "calls"
+    },
+    {
+      "src": "function:main.main",
+      "dst": "function:input",
+      "type": "calls"
+    },
+    {
+      "src": "function:main.main",
+      "dst": "function:parse_input",
+      "type": "calls"
+    },
+    {
+      "src": "function:main.main",
+      "dst": "function:src.operations.crud.insert_record",
+      "type": "calls"
+    },
+    {
+      "src": "function:main.main",
+      "dst": "function:print",
+      "type": "calls"
+    },
+    {
+      "src": "function:main.main",
+      "dst": "function:src.operations.crud.find_records",
+      "type": "calls"
+    },
+    {
+      "src": "function:main.main",
+      "dst": "function:src.operations.crud.update_records",
+      "type": "calls"
+    },
+    {
+      "src": "function:main.main",
+      "dst": "function:src.operations.crud.delete_records",
+      "type": "calls"
+    },
+    {
+      "src": "function:main.main",
+      "dst": "function:len",
+      "type": "calls"
+    },
+    {
+      "src": "function:main.main",
+      "dst": "function:src.operations.crud.show_all_records",
+      "type": "calls"
+    },
+    {
+      "src": "module:core.database",
+      "dst": "module:os",
+      "type": "imports"
+    },
+    {
+      "src": "module:core.database",
+      "dst": "module:typing",
+      "type": "imports"
+    },
+    {
+      "src": "module:core.database",
+      "dst": "module:src.core.storage",
+      "type": "imports"
+    },
+    {
+      "src": "module:core.database",
+      "dst": "module:src.core.schema_manager",
+      "type": "imports"
+    },
+    {
+      "src": "module:core.database",
+      "dst": "module:src.config",
+      "type": "imports"
+    },
+    {
+      "src": "module:core.database",
+      "dst": "module:src.operations.query",
+      "type": "imports"
+    },
+    {
+      "src": "module:core.database",
+      "dst": "class:core.database.Database",
+      "type": "contains"
+    },
+    {
+      "src": "class:core.database.Database",
+      "dst": "function:core.database.Database.__init__",
+      "type": "contains"
+    },
+    {
+      "src": "function:core.database.Database.__init__",
+      "dst": "function:os.path.join",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.database.Database.__init__",
+      "dst": "function:self.load_schema",
+      "type": "calls"
+    },
+    {
+      "src": "class:core.database.Database",
+      "dst": "function:core.database.Database._load_data",
+      "type": "contains"
+    },
+    {
+      "src": "function:core.database.Database._load_data",
+      "dst": "function:src.core.storage.read_json",
+      "type": "calls"
+    },
+    {
+      "src": "class:core.database.Database",
+      "dst": "function:core.database.Database._write_data",
+      "type": "contains"
+    },
+    {
+      "src": "function:core.database.Database._write_data",
+      "dst": "function:src.core.storage.write_json",
+      "type": "calls"
+    },
+    {
+      "src": "class:core.database.Database",
+      "dst": "function:core.database.Database.load_schema",
+      "type": "contains"
+    },
+    {
+      "src": "function:core.database.Database.load_schema",
+      "dst": "function:src.core.storage.read_json",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.database.Database.load_schema",
+      "dst": "function:os.path.exists",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.database.Database.load_schema",
+      "dst": "function:FileNotFoundError",
+      "type": "calls"
+    },
+    {
+      "src": "class:core.database.Database",
+      "dst": "function:core.database.Database.insert",
+      "type": "contains"
+    },
+    {
+      "src": "function:core.database.Database.insert",
+      "dst": "function:print",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.database.Database.insert",
+      "dst": "function:self._load_data",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.database.Database.insert",
+      "dst": "function:src.core.schema_manager.validate",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.database.Database.insert",
+      "dst": "function:data.append",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.database.Database.insert",
+      "dst": "function:self._write_data",
+      "type": "calls"
+    },
+    {
+      "src": "class:core.database.Database",
+      "dst": "function:core.database.Database.find",
+      "type": "contains"
+    },
+    {
+      "src": "function:core.database.Database.find",
+      "dst": "function:self._load_data",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.database.Database.find",
+      "dst": "function:src.operations.query.advanced_filter",
+      "type": "calls"
+    },
+    {
+      "src": "class:core.database.Database",
+      "dst": "function:core.database.Database.update",
+      "type": "contains"
+    },
+    {
+      "src": "function:core.database.Database.update",
+      "dst": "function:self._load_data",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.database.Database.update",
+      "dst": "function:enumerate",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.database.Database.update",
+      "dst": "function:src.operations.query.advanced_filter",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.database.Database.update",
+      "dst": "function:self._write_data",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.database.Database.update",
+      "dst": "function:src.core.schema_manager.validate",
+      "type": "calls"
+    },
+    {
+      "src": "class:core.database.Database",
+      "dst": "function:core.database.Database.delete",
+      "type": "contains"
+    },
+    {
+      "src": "function:core.database.Database.delete",
+      "dst": "function:self._load_data",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.database.Database.delete",
+      "dst": "function:len",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.database.Database.delete",
+      "dst": "function:self._write_data",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.database.Database.delete",
+      "dst": "function:src.operations.query.advanced_filter",
+      "type": "calls"
+    },
+    {
+      "src": "class:core.database.Database",
+      "dst": "function:core.database.Database.count",
+      "type": "contains"
+    },
+    {
+      "src": "function:core.database.Database.count",
+      "dst": "function:len",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.database.Database.count",
+      "dst": "function:self._load_data",
+      "type": "calls"
+    },
+    {
+      "src": "class:core.database.Database",
+      "dst": "function:core.database.Database.show_all",
+      "type": "contains"
+    },
+    {
+      "src": "function:core.database.Database.show_all",
+      "dst": "function:self._load_data",
+      "type": "calls"
+    },
+    {
+      "src": "module:core.schema_manager",
+      "dst": "module:json",
+      "type": "imports"
+    },
+    {
+      "src": "module:core.schema_manager",
+      "dst": "module:typing",
+      "type": "imports"
+    },
+    {
+      "src": "module:core.schema_manager",
+      "dst": "function:core.schema_manager.validate",
+      "type": "contains"
+    },
+    {
+      "src": "function:core.schema_manager.validate",
+      "dst": "function:print",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.schema_manager.validate",
+      "dst": "function:schema.items",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.schema_manager.validate",
+      "dst": "function:TYPE_MAP.get",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.schema_manager.validate",
+      "dst": "function:ValueError",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.schema_manager.validate",
+      "dst": "function:isinstance",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.schema_manager.validate",
+      "dst": "function:type",
+      "type": "calls"
+    },
+    {
+      "src": "module:core.schema_manager",
+      "dst": "function:core.schema_manager.validate_records",
+      "type": "contains"
+    },
+    {
+      "src": "function:core.schema_manager.validate_records",
+      "dst": "function:src.core.schema_manager.validate",
+      "type": "calls"
+    },
+    {
+      "src": "module:core.schema_manager",
+      "dst": "function:core.schema_manager.load_schema",
+      "type": "contains"
+    },
+    {
+      "src": "function:core.schema_manager.load_schema",
+      "dst": "function:open",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.schema_manager.load_schema",
+      "dst": "function:json.load",
+      "type": "calls"
+    },
+    {
+      "src": "module:core.storage",
+      "dst": "module:json",
+      "type": "imports"
+    },
+    {
+      "src": "module:core.storage",
+      "dst": "module:os",
+      "type": "imports"
+    },
+    {
+      "src": "module:core.storage",
+      "dst": "module:tempfile",
+      "type": "imports"
+    },
+    {
+      "src": "module:core.storage",
+      "dst": "module:typing",
+      "type": "imports"
+    },
+    {
+      "src": "module:core.storage",
+      "dst": "function:core.storage.read_json",
+      "type": "contains"
+    },
+    {
+      "src": "function:core.storage.read_json",
+      "dst": "function:os.path.exists",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.storage.read_json",
+      "dst": "function:open",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.storage.read_json",
+      "dst": "function:json.load",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.storage.read_json",
+      "dst": "function:isinstance",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.storage.read_json",
+      "dst": "function:ValueError",
+      "type": "calls"
+    },
+    {
+      "src": "module:core.storage",
+      "dst": "function:core.storage.write_json",
+      "type": "contains"
+    },
+    {
+      "src": "function:core.storage.write_json",
+      "dst": "function:os.path.dirname",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.storage.write_json",
+      "dst": "function:os.replace",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.storage.write_json",
+      "dst": "function:tempfile.NamedTemporaryFile",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.storage.write_json",
+      "dst": "function:json.dump",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.storage.write_json",
+      "dst": "function:IOError",
+      "type": "calls"
+    },
+    {
+      "src": "module:core.storage",
+      "dst": "function:core.storage.append_json",
+      "type": "contains"
+    },
+    {
+      "src": "function:core.storage.append_json",
+      "dst": "function:src.core.storage.read_json",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.storage.append_json",
+      "dst": "function:data.append",
+      "type": "calls"
+    },
+    {
+      "src": "function:core.storage.append_json",
+      "dst": "function:src.core.storage.write_json",
+      "type": "calls"
+    },
+    {
+      "src": "module:core.storage",
+      "dst": "function:core.storage.clear_json",
+      "type": "contains"
+    },
+    {
+      "src": "function:core.storage.clear_json",
+      "dst": "function:src.core.storage.write_json",
+      "type": "calls"
+    },
+    {
+      "src": "module:operations.crud",
+      "dst": "module:typing",
+      "type": "imports"
+    },
+    {
+      "src": "module:operations.crud",
+      "dst": "module:src.core.database",
+      "type": "imports"
+    },
+    {
+      "src": "module:operations.crud",
+      "dst": "function:operations.crud.insert_record",
+      "type": "contains"
+    },
+    {
+      "src": "function:operations.crud.insert_record",
+      "dst": "function:db.insert",
+      "type": "calls"
+    },
+    {
+      "src": "module:operations.crud",
+      "dst": "function:operations.crud.find_records",
+      "type": "contains"
+    },
+    {
+      "src": "function:operations.crud.find_records",
+      "dst": "function:db.find",
+      "type": "calls"
+    },
+    {
+      "src": "module:operations.crud",
+      "dst": "function:operations.crud.update_records",
+      "type": "contains"
+    },
+    {
+      "src": "function:operations.crud.update_records",
+      "dst": "function:db.update",
+      "type": "calls"
+    },
+    {
+      "src": "module:operations.crud",
+      "dst": "function:operations.crud.delete_records",
+      "type": "contains"
+    },
+    {
+      "src": "function:operations.crud.delete_records",
+      "dst": "function:db.delete",
+      "type": "calls"
+    },
+    {
+      "src": "module:operations.crud",
+      "dst": "function:operations.crud.count_records",
+      "type": "contains"
+    },
+    {
+      "src": "function:operations.crud.count_records",
+      "dst": "function:db.count",
+      "type": "calls"
+    },
+    {
+      "src": "module:operations.crud",
+      "dst": "function:operations.crud.show_all_records",
+      "type": "contains"
+    },
+    {
+      "src": "function:operations.crud.show_all_records",
+      "dst": "function:db.show_all",
+      "type": "calls"
+    },
+    {
+      "src": "module:operations.query",
+      "dst": "module:typing",
+      "type": "imports"
+    },
+    {
+      "src": "module:operations.query",
+      "dst": "function:operations.query.match_query",
+      "type": "contains"
+    },
+    {
+      "src": "function:operations.query.match_query",
+      "dst": "function:query.items",
+      "type": "calls"
+    },
+    {
+      "src": "module:operations.query",
+      "dst": "function:operations.query.filter_records",
+      "type": "contains"
+    },
+    {
+      "src": "function:operations.query.filter_records",
+      "dst": "function:match_query",
+      "type": "calls"
+    },
+    {
+      "src": "module:operations.query",
+      "dst": "function:operations.query.advanced_filter",
+      "type": "contains"
+    },
+    {
+      "src": "function:operations.query.advanced_filter",
+      "dst": "function:query.items",
+      "type": "calls"
+    },
+    {
+      "src": "function:operations.query.advanced_filter",
+      "dst": "function:isinstance",
+      "type": "calls"
+    },
+    {
+      "src": "function:operations.query.advanced_filter",
+      "dst": "function:filtered.append",
+      "type": "calls"
+    },
+    {
+      "src": "function:operations.query.advanced_filter",
+      "dst": "function:condition.items",
+      "type": "calls"
+    },
+    {
+      "src": "function:operations.query.advanced_filter",
+      "dst": "function:str",
+      "type": "calls"
+    }
+  ]
+}

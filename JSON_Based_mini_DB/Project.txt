@@ -1,0 +1,49 @@
+JSON_Based_mini_DB/
+│
+├── data/                     # actual stored JSON records
+│   └── users.json
+│
+├── schemas/                  # schema definitions
+│   └── user_schema.
+│
+├── metadata/                 # database info
+│   └── db_meta.json
+│
+├── src/
+│   ├── core/
+│   │   ├── database.py       # main DB engine
+│   │   ├── storage.py        # file handling logic
+│   │   └── schema_manager.py
+│   │
+│   ├── operations/
+│   │   ├── crud.py
+│   │   └── query.py          # filtering/search logic
+│   │
+│   ├── utils/
+│   │   └── helpers.py
+│   │
+│   ├── config.py
+│   └── main.py
+│
+└── README.md
+
+core/ → how DB works
+operations/ → what user does
+data/ → actual storage
+
+Features That Will Make This Project 🔥
+
+Add atleast 3–4 of these, it becomes standout:
+
+✅ Must-have
+- Insert / Update / Delete
+- Search with conditions
+- JSON persistence
+
+🔥 Strong upgrades
+- Schema validation
+- Auto ID generation
+- Indexing (basic dictionary-based)
+
+Query like:
+{"age": {"$gt": 20}}

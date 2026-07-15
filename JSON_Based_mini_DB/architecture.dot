@@ -1,0 +1,330 @@
+digraph Architecture {
+  rankdir=LR;
+  fontname="Helvetica";
+  node [fontname="Helvetica", style=filled];
+  edge [fontname="Helvetica"];
+
+  subgraph cluster_D__Excited_Nuclei_Python_Lectures_Intermidiate_Python_Projects_JSON_Based_mini_DB_src___init___py {
+    label="module: D:\Excited Nuclei\Python Lectures\Intermidiate Python\Projects\JSON_Based_mini_DB\src\__init__.py";
+    style=rounded;
+    "module___init__" [label="module\n__init__", shape=folder, fillcolor="#ECEFF1"];
+  }
+
+  subgraph cluster_D__Excited_Nuclei_Python_Lectures_Intermidiate_Python_Projects_JSON_Based_mini_DB_src_config_py {
+    label="module: D:\Excited Nuclei\Python Lectures\Intermidiate Python\Projects\JSON_Based_mini_DB\src\config.py";
+    style=rounded;
+    "class_config_DataStructure" [label="class\nconfig.DataStructure", shape=box, fillcolor="#E3F2FD"];
+    "function_config_DataStructure___init__" [label="method\nconfig.DataStructure.__init__", shape=oval, fillcolor="#FFF3E0"];
+    "function_config_DataStructure_info" [label="method\nconfig.DataStructure.info", shape=oval, fillcolor="#FFF3E0"];
+    "module_config" [label="module\nconfig", shape=folder, fillcolor="#ECEFF1"];
+  }
+
+  subgraph cluster_D__Excited_Nuclei_Python_Lectures_Intermidiate_Python_Projects_JSON_Based_mini_DB_src_core___init___py {
+    label="module: D:\Excited Nuclei\Python Lectures\Intermidiate Python\Projects\JSON_Based_mini_DB\src\core\__init__.py";
+    style=rounded;
+    "module_core___init__" [label="module\ncore.__init__", shape=folder, fillcolor="#ECEFF1"];
+  }
+
+  subgraph cluster_D__Excited_Nuclei_Python_Lectures_Intermidiate_Python_Projects_JSON_Based_mini_DB_src_core_database_py {
+    label="module: D:\Excited Nuclei\Python Lectures\Intermidiate Python\Projects\JSON_Based_mini_DB\src\core\database.py";
+    style=rounded;
+    "class_core_database_Database" [label="class\ncore.database.Database", shape=box, fillcolor="#E3F2FD"];
+    "function_core_database_Database___init__" [label="method\ncore.database.Database.__init__", shape=oval, fillcolor="#FFF3E0"];
+    "function_core_database_Database__load_data" [label="method\ncore.database.Database._load_data", shape=oval, fillcolor="#FFF3E0"];
+    "function_core_database_Database__write_data" [label="method\ncore.database.Database._write_data", shape=oval, fillcolor="#FFF3E0"];
+    "function_core_database_Database_count" [label="method\ncore.database.Database.count", shape=oval, fillcolor="#FFF3E0"];
+    "function_core_database_Database_delete" [label="method\ncore.database.Database.delete", shape=oval, fillcolor="#FFF3E0"];
+    "function_core_database_Database_find" [label="method\ncore.database.Database.find", shape=oval, fillcolor="#FFF3E0"];
+    "function_core_database_Database_insert" [label="method\ncore.database.Database.insert", shape=oval, fillcolor="#FFF3E0"];
+    "function_core_database_Database_load_schema" [label="method\ncore.database.Database.load_schema", shape=oval, fillcolor="#FFF3E0"];
+    "function_core_database_Database_show_all" [label="method\ncore.database.Database.show_all", shape=oval, fillcolor="#FFF3E0"];
+    "function_core_database_Database_update" [label="method\ncore.database.Database.update", shape=oval, fillcolor="#FFF3E0"];
+    "module_core_database" [label="module\ncore.database", shape=folder, fillcolor="#ECEFF1"];
+  }
+
+  subgraph cluster_D__Excited_Nuclei_Python_Lectures_Intermidiate_Python_Projects_JSON_Based_mini_DB_src_core_schema_manager_py {
+    label="module: D:\Excited Nuclei\Python Lectures\Intermidiate Python\Projects\JSON_Based_mini_DB\src\core\schema_manager.py";
+    style=rounded;
+    "function_core_schema_manager_load_schema" [label="function\ncore.schema_manager.load_schema", shape=oval, fillcolor="#E8F5E9"];
+    "function_core_schema_manager_validate" [label="function\ncore.schema_manager.validate", shape=oval, fillcolor="#E8F5E9"];
+    "function_core_schema_manager_validate_records" [label="function\ncore.schema_manager.validate_records", shape=oval, fillcolor="#E8F5E9"];
+    "module_core_schema_manager" [label="module\ncore.schema_manager", shape=folder, fillcolor="#ECEFF1"];
+  }
+
+  subgraph cluster_D__Excited_Nuclei_Python_Lectures_Intermidiate_Python_Projects_JSON_Based_mini_DB_src_core_storage_py {
+    label="module: D:\Excited Nuclei\Python Lectures\Intermidiate Python\Projects\JSON_Based_mini_DB\src\core\storage.py";
+    style=rounded;
+    "function_core_storage_append_json" [label="function\ncore.storage.append_json", shape=oval, fillcolor="#E8F5E9"];
+    "function_core_storage_clear_json" [label="function\ncore.storage.clear_json", shape=oval, fillcolor="#E8F5E9"];
+    "function_core_storage_read_json" [label="function\ncore.storage.read_json", shape=oval, fillcolor="#E8F5E9"];
+    "function_core_storage_write_json" [label="function\ncore.storage.write_json", shape=oval, fillcolor="#E8F5E9"];
+    "module_core_storage" [label="module\ncore.storage", shape=folder, fillcolor="#ECEFF1"];
+  }
+
+  subgraph cluster_D__Excited_Nuclei_Python_Lectures_Intermidiate_Python_Projects_JSON_Based_mini_DB_src_main_py {
+    label="module: D:\Excited Nuclei\Python Lectures\Intermidiate Python\Projects\JSON_Based_mini_DB\src\main.py";
+    style=rounded;
+    "function_main_main" [label="function\nmain.main", shape=oval, fillcolor="#E8F5E9"];
+    "function_main_parse_input" [label="function\nmain.parse_input", shape=oval, fillcolor="#E8F5E9"];
+    "function_main_print_menu" [label="function\nmain.print_menu", shape=oval, fillcolor="#E8F5E9"];
+    "module_main" [label="module\nmain", shape=folder, fillcolor="#ECEFF1"];
+  }
+
+  subgraph cluster_D__Excited_Nuclei_Python_Lectures_Intermidiate_Python_Projects_JSON_Based_mini_DB_src_operations___init___py {
+    label="module: D:\Excited Nuclei\Python Lectures\Intermidiate Python\Projects\JSON_Based_mini_DB\src\operations\__init__.py";
+    style=rounded;
+    "module_operations___init__" [label="module\noperations.__init__", shape=folder, fillcolor="#ECEFF1"];
+  }
+
+  subgraph cluster_D__Excited_Nuclei_Python_Lectures_Intermidiate_Python_Projects_JSON_Based_mini_DB_src_operations_crud_py {
+    label="module: D:\Excited Nuclei\Python Lectures\Intermidiate Python\Projects\JSON_Based_mini_DB\src\operations\crud.py";
+    style=rounded;
+    "function_operations_crud_count_records" [label="function\noperations.crud.count_records", shape=oval, fillcolor="#E8F5E9"];
+    "function_operations_crud_delete_records" [label="function\noperations.crud.delete_records", shape=oval, fillcolor="#E8F5E9"];
+    "function_operations_crud_find_records" [label="function\noperations.crud.find_records", shape=oval, fillcolor="#E8F5E9"];
+    "function_operations_crud_insert_record" [label="function\noperations.crud.insert_record", shape=oval, fillcolor="#E8F5E9"];
+    "function_operations_crud_show_all_records" [label="function\noperations.crud.show_all_records", shape=oval, fillcolor="#E8F5E9"];
+    "function_operations_crud_update_records" [label="function\noperations.crud.update_records", shape=oval, fillcolor="#E8F5E9"];
+    "module_operations_crud" [label="module\noperations.crud", shape=folder, fillcolor="#ECEFF1"];
+  }
+
+  subgraph cluster_D__Excited_Nuclei_Python_Lectures_Intermidiate_Python_Projects_JSON_Based_mini_DB_src_operations_query_py {
+    label="module: D:\Excited Nuclei\Python Lectures\Intermidiate Python\Projects\JSON_Based_mini_DB\src\operations\query.py";
+    style=rounded;
+    "function_operations_query_advanced_filter" [label="function\noperations.query.advanced_filter", shape=oval, fillcolor="#E8F5E9"];
+    "function_operations_query_filter_records" [label="function\noperations.query.filter_records", shape=oval, fillcolor="#E8F5E9"];
+    "function_operations_query_match_query" [label="function\noperations.query.match_query", shape=oval, fillcolor="#E8F5E9"];
+    "module_operations_query" [label="module\noperations.query", shape=folder, fillcolor="#ECEFF1"];
+  }
+
+  subgraph cluster_D__Excited_Nuclei_Python_Lectures_Intermidiate_Python_Projects_JSON_Based_mini_DB_src_utils___init___py {
+    label="module: D:\Excited Nuclei\Python Lectures\Intermidiate Python\Projects\JSON_Based_mini_DB\src\utils\__init__.py";
+    style=rounded;
+    "module_utils___init__" [label="module\nutils.__init__", shape=folder, fillcolor="#ECEFF1"];
+  }
+
+  subgraph cluster_external {
+    label="module: external";
+    style=rounded;
+    "function_FileNotFoundError" [label="external\nFileNotFoundError", shape=box, fillcolor="#FFFFFF"];
+    "function_IOError" [label="external\nIOError", shape=box, fillcolor="#FFFFFF"];
+    "function_TYPE_MAP_get" [label="external\nTYPE_MAP.get", shape=box, fillcolor="#FFFFFF"];
+    "function_ValueError" [label="external\nValueError", shape=box, fillcolor="#FFFFFF"];
+    "function_condition_items" [label="external\ncondition.items", shape=box, fillcolor="#FFFFFF"];
+    "function_data_append" [label="external\ndata.append", shape=box, fillcolor="#FFFFFF"];
+    "function_db_count" [label="external\ndb.count", shape=box, fillcolor="#FFFFFF"];
+    "function_db_delete" [label="external\ndb.delete", shape=box, fillcolor="#FFFFFF"];
+    "function_db_find" [label="external\ndb.find", shape=box, fillcolor="#FFFFFF"];
+    "function_db_insert" [label="external\ndb.insert", shape=box, fillcolor="#FFFFFF"];
+    "function_db_show_all" [label="external\ndb.show_all", shape=box, fillcolor="#FFFFFF"];
+    "function_db_update" [label="external\ndb.update", shape=box, fillcolor="#FFFFFF"];
+    "function_enumerate" [label="external\nenumerate", shape=box, fillcolor="#FFFFFF"];
+    "function_filtered_append" [label="external\nfiltered.append", shape=box, fillcolor="#FFFFFF"];
+    "function_float" [label="external\nfloat", shape=box, fillcolor="#FFFFFF"];
+    "function_input" [label="external\ninput", shape=box, fillcolor="#FFFFFF"];
+    "function_int" [label="external\nint", shape=box, fillcolor="#FFFFFF"];
+    "function_isdigit" [label="external\nisdigit", shape=box, fillcolor="#FFFFFF"];
+    "function_isinstance" [label="external\nisinstance", shape=box, fillcolor="#FFFFFF"];
+    "module_json" [label="external\njson", shape=box, fillcolor="#FFFFFF"];
+    "function_json_dump" [label="external\njson.dump", shape=box, fillcolor="#FFFFFF"];
+    "function_json_load" [label="external\njson.load", shape=box, fillcolor="#FFFFFF"];
+    "function_len" [label="external\nlen", shape=box, fillcolor="#FFFFFF"];
+    "function_match_query" [label="external\nmatch_query", shape=box, fillcolor="#FFFFFF"];
+    "function_open" [label="external\nopen", shape=box, fillcolor="#FFFFFF"];
+    "module_os" [label="external\nos", shape=box, fillcolor="#FFFFFF"];
+    "function_os_path_dirname" [label="external\nos.path.dirname", shape=box, fillcolor="#FFFFFF"];
+    "function_os_path_exists" [label="external\nos.path.exists", shape=box, fillcolor="#FFFFFF"];
+    "function_os_path_join" [label="external\nos.path.join", shape=box, fillcolor="#FFFFFF"];
+    "function_os_replace" [label="external\nos.replace", shape=box, fillcolor="#FFFFFF"];
+    "function_pair_split" [label="external\npair.split", shape=box, fillcolor="#FFFFFF"];
+    "function_parse_input" [label="external\nparse_input", shape=box, fillcolor="#FFFFFF"];
+    "function_print" [label="external\nprint", shape=box, fillcolor="#FFFFFF"];
+    "function_print_menu" [label="external\nprint_menu", shape=box, fillcolor="#FFFFFF"];
+    "function_query_items" [label="external\nquery.items", shape=box, fillcolor="#FFFFFF"];
+    "function_raw_split" [label="external\nraw.split", shape=box, fillcolor="#FFFFFF"];
+    "function_schema_items" [label="external\nschema.items", shape=box, fillcolor="#FFFFFF"];
+    "function_self__load_data" [label="external\nself._load_data", shape=box, fillcolor="#FFFFFF"];
+    "function_self__write_data" [label="external\nself._write_data", shape=box, fillcolor="#FFFFFF"];
+    "function_self_load_schema" [label="external\nself.load_schema", shape=box, fillcolor="#FFFFFF"];
+    "module_src_config" [label="external\nsrc.config", shape=box, fillcolor="#FFFFFF"];
+    "module_src_core_database" [label="external\nsrc.core.database", shape=box, fillcolor="#FFFFFF"];
+    "function_src_core_database_Database" [label="external\nsrc.core.database.Database", shape=box, fillcolor="#FFFFFF"];
+    "module_src_core_schema_manager" [label="external\nsrc.core.schema_manager", shape=box, fillcolor="#FFFFFF"];
+    "function_src_core_schema_manager_validate" [label="external\nsrc.core.schema_manager.validate", shape=box, fillcolor="#FFFFFF"];
+    "module_src_core_storage" [label="external\nsrc.core.storage", shape=box, fillcolor="#FFFFFF"];
+    "function_src_core_storage_read_json" [label="external\nsrc.core.storage.read_json", shape=box, fillcolor="#FFFFFF"];
+    "function_src_core_storage_write_json" [label="external\nsrc.core.storage.write_json", shape=box, fillcolor="#FFFFFF"];
+    "module_src_operations_crud" [label="external\nsrc.operations.crud", shape=box, fillcolor="#FFFFFF"];
+    "function_src_operations_crud_delete_records" [label="external\nsrc.operations.crud.delete_records", shape=box, fillcolor="#FFFFFF"];
+    "function_src_operations_crud_find_records" [label="external\nsrc.operations.crud.find_records", shape=box, fillcolor="#FFFFFF"];
+    "function_src_operations_crud_insert_record" [label="external\nsrc.operations.crud.insert_record", shape=box, fillcolor="#FFFFFF"];
+    "function_src_operations_crud_show_all_records" [label="external\nsrc.operations.crud.show_all_records", shape=box, fillcolor="#FFFFFF"];
+    "function_src_operations_crud_update_records" [label="external\nsrc.operations.crud.update_records", shape=box, fillcolor="#FFFFFF"];
+    "module_src_operations_query" [label="external\nsrc.operations.query", shape=box, fillcolor="#FFFFFF"];
+    "function_src_operations_query_advanced_filter" [label="external\nsrc.operations.query.advanced_filter", shape=box, fillcolor="#FFFFFF"];
+    "function_str" [label="external\nstr", shape=box, fillcolor="#FFFFFF"];
+    "function_strip" [label="external\nstrip", shape=box, fillcolor="#FFFFFF"];
+    "module_sys" [label="external\nsys", shape=box, fillcolor="#FFFFFF"];
+    "module_tempfile" [label="external\ntempfile", shape=box, fillcolor="#FFFFFF"];
+    "function_tempfile_NamedTemporaryFile" [label="external\ntempfile.NamedTemporaryFile", shape=box, fillcolor="#FFFFFF"];
+    "function_type" [label="external\ntype", shape=box, fillcolor="#FFFFFF"];
+    "module_typing" [label="external\ntyping", shape=box, fillcolor="#FFFFFF"];
+    "function_value_isdigit" [label="external\nvalue.isdigit", shape=box, fillcolor="#FFFFFF"];
+    "function_value_replace" [label="external\nvalue.replace", shape=box, fillcolor="#FFFFFF"];
+  }
+
+  "function_config_DataStructure___init__" -> "function_ValueError" [label="calls" color="#2E7D32"];
+  "function_config_DataStructure___init__" -> "function_len" [label="calls" color="#2E7D32"];
+  "function_config_DataStructure_info" -> "function_print" [label="calls" color="#2E7D32"];
+  "function_core_database_Database___init__" -> "function_os_path_join" [label="calls" color="#2E7D32"];
+  "function_core_database_Database___init__" -> "function_self_load_schema" [label="calls" color="#2E7D32"];
+  "function_core_database_Database__load_data" -> "function_src_core_storage_read_json" [label="calls" color="#2E7D32"];
+  "function_core_database_Database__write_data" -> "function_src_core_storage_write_json" [label="calls" color="#2E7D32"];
+  "function_core_database_Database_count" -> "function_len" [label="calls" color="#2E7D32"];
+  "function_core_database_Database_count" -> "function_self__load_data" [label="calls" color="#2E7D32"];
+  "function_core_database_Database_delete" -> "function_len" [label="calls" color="#2E7D32"];
+  "function_core_database_Database_delete" -> "function_self__load_data" [label="calls" color="#2E7D32"];
+  "function_core_database_Database_delete" -> "function_self__write_data" [label="calls" color="#2E7D32"];
+  "function_core_database_Database_delete" -> "function_src_operations_query_advanced_filter" [label="calls" color="#2E7D32"];
+  "function_core_database_Database_find" -> "function_self__load_data" [label="calls" color="#2E7D32"];
+  "function_core_database_Database_find" -> "function_src_operations_query_advanced_filter" [label="calls" color="#2E7D32"];
+  "function_core_database_Database_insert" -> "function_data_append" [label="calls" color="#2E7D32"];
+  "function_core_database_Database_insert" -> "function_print" [label="calls" color="#2E7D32"];
+  "function_core_database_Database_insert" -> "function_self__load_data" [label="calls" color="#2E7D32"];
+  "function_core_database_Database_insert" -> "function_self__write_data" [label="calls" color="#2E7D32"];
+  "function_core_database_Database_insert" -> "function_src_core_schema_manager_validate" [label="calls" color="#2E7D32"];
+  "function_core_database_Database_load_schema" -> "function_FileNotFoundError" [label="calls" color="#2E7D32"];
+  "function_core_database_Database_load_schema" -> "function_os_path_exists" [label="calls" color="#2E7D32"];
+  "function_core_database_Database_load_schema" -> "function_src_core_storage_read_json" [label="calls" color="#2E7D32"];
+  "function_core_database_Database_show_all" -> "function_self__load_data" [label="calls" color="#2E7D32"];
+  "function_core_database_Database_update" -> "function_enumerate" [label="calls" color="#2E7D32"];
+  "function_core_database_Database_update" -> "function_self__load_data" [label="calls" color="#2E7D32"];
+  "function_core_database_Database_update" -> "function_self__write_data" [label="calls" color="#2E7D32"];
+  "function_core_database_Database_update" -> "function_src_core_schema_manager_validate" [label="calls" color="#2E7D32"];
+  "function_core_database_Database_update" -> "function_src_operations_query_advanced_filter" [label="calls" color="#2E7D32"];
+  "function_core_schema_manager_load_schema" -> "function_json_load" [label="calls" color="#2E7D32"];
+  "function_core_schema_manager_load_schema" -> "function_open" [label="calls" color="#2E7D32"];
+  "function_core_schema_manager_validate" -> "function_TYPE_MAP_get" [label="calls" color="#2E7D32"];
+  "function_core_schema_manager_validate" -> "function_ValueError" [label="calls" color="#2E7D32"];
+  "function_core_schema_manager_validate" -> "function_isinstance" [label="calls" color="#2E7D32"];
+  "function_core_schema_manager_validate" -> "function_print" [label="calls" color="#2E7D32"];
+  "function_core_schema_manager_validate" -> "function_schema_items" [label="calls" color="#2E7D32"];
+  "function_core_schema_manager_validate" -> "function_type" [label="calls" color="#2E7D32"];
+  "function_core_schema_manager_validate_records" -> "function_src_core_schema_manager_validate" [label="calls" color="#2E7D32"];
+  "function_core_storage_append_json" -> "function_data_append" [label="calls" color="#2E7D32"];
+  "function_core_storage_append_json" -> "function_src_core_storage_read_json" [label="calls" color="#2E7D32"];
+  "function_core_storage_append_json" -> "function_src_core_storage_write_json" [label="calls" color="#2E7D32"];
+  "function_core_storage_clear_json" -> "function_src_core_storage_write_json" [label="calls" color="#2E7D32"];
+  "function_core_storage_read_json" -> "function_ValueError" [label="calls" color="#2E7D32"];
+  "function_core_storage_read_json" -> "function_isinstance" [label="calls" color="#2E7D32"];
+  "function_core_storage_read_json" -> "function_json_load" [label="calls" color="#2E7D32"];
+  "function_core_storage_read_json" -> "function_open" [label="calls" color="#2E7D32"];
+  "function_core_storage_read_json" -> "function_os_path_exists" [label="calls" color="#2E7D32"];
+  "function_core_storage_write_json" -> "function_IOError" [label="calls" color="#2E7D32"];
+  "function_core_storage_write_json" -> "function_json_dump" [label="calls" color="#2E7D32"];
+  "function_core_storage_write_json" -> "function_os_path_dirname" [label="calls" color="#2E7D32"];
+  "function_core_storage_write_json" -> "function_os_replace" [label="calls" color="#2E7D32"];
+  "function_core_storage_write_json" -> "function_tempfile_NamedTemporaryFile" [label="calls" color="#2E7D32"];
+  "function_main_main" -> "function_input" [label="calls" color="#2E7D32"];
+  "function_main_main" -> "function_len" [label="calls" color="#2E7D32"];
+  "function_main_main" -> "function_parse_input" [label="calls" color="#2E7D32"];
+  "function_main_main" -> "function_print" [label="calls" color="#2E7D32"];
+  "function_main_main" -> "function_print_menu" [label="calls" color="#2E7D32"];
+  "function_main_main" -> "function_src_core_database_Database" [label="calls" color="#2E7D32"];
+  "function_main_main" -> "function_src_operations_crud_delete_records" [label="calls" color="#2E7D32"];
+  "function_main_main" -> "function_src_operations_crud_find_records" [label="calls" color="#2E7D32"];
+  "function_main_main" -> "function_src_operations_crud_insert_record" [label="calls" color="#2E7D32"];
+  "function_main_main" -> "function_src_operations_crud_show_all_records" [label="calls" color="#2E7D32"];
+  "function_main_main" -> "function_src_operations_crud_update_records" [label="calls" color="#2E7D32"];
+  "function_main_main" -> "function_strip" [label="calls" color="#2E7D32"];
+  "function_main_parse_input" -> "function_float" [label="calls" color="#2E7D32"];
+  "function_main_parse_input" -> "function_input" [label="calls" color="#2E7D32"];
+  "function_main_parse_input" -> "function_int" [label="calls" color="#2E7D32"];
+  "function_main_parse_input" -> "function_isdigit" [label="calls" color="#2E7D32"];
+  "function_main_parse_input" -> "function_pair_split" [label="calls" color="#2E7D32"];
+  "function_main_parse_input" -> "function_print" [label="calls" color="#2E7D32"];
+  "function_main_parse_input" -> "function_raw_split" [label="calls" color="#2E7D32"];
+  "function_main_parse_input" -> "function_strip" [label="calls" color="#2E7D32"];
+  "function_main_parse_input" -> "function_value_isdigit" [label="calls" color="#2E7D32"];
+  "function_main_parse_input" -> "function_value_replace" [label="calls" color="#2E7D32"];
+  "function_main_print_menu" -> "function_print" [label="calls" color="#2E7D32"];
+  "function_operations_crud_count_records" -> "function_db_count" [label="calls" color="#2E7D32"];
+  "function_operations_crud_delete_records" -> "function_db_delete" [label="calls" color="#2E7D32"];
+  "function_operations_crud_find_records" -> "function_db_find" [label="calls" color="#2E7D32"];
+  "function_operations_crud_insert_record" -> "function_db_insert" [label="calls" color="#2E7D32"];
+  "function_operations_crud_show_all_records" -> "function_db_show_all" [label="calls" color="#2E7D32"];
+  "function_operations_crud_update_records" -> "function_db_update" [label="calls" color="#2E7D32"];
+  "function_operations_query_advanced_filter" -> "function_condition_items" [label="calls" color="#2E7D32"];
+  "function_operations_query_advanced_filter" -> "function_filtered_append" [label="calls" color="#2E7D32"];
+  "function_operations_query_advanced_filter" -> "function_isinstance" [label="calls" color="#2E7D32"];
+  "function_operations_query_advanced_filter" -> "function_query_items" [label="calls" color="#2E7D32"];
+  "function_operations_query_advanced_filter" -> "function_str" [label="calls" color="#2E7D32"];
+  "function_operations_query_filter_records" -> "function_match_query" [label="calls" color="#2E7D32"];
+  "function_operations_query_match_query" -> "function_query_items" [label="calls" color="#2E7D32"];
+  "class_config_DataStructure" -> "function_config_DataStructure___init__" [label="contains" arrowhead=none color="#616161"];
+  "class_config_DataStructure" -> "function_config_DataStructure_info" [label="contains" arrowhead=none color="#616161"];
+  "class_core_database_Database" -> "function_core_database_Database___init__" [label="contains" arrowhead=none color="#616161"];
+  "class_core_database_Database" -> "function_core_database_Database__load_data" [label="contains" arrowhead=none color="#616161"];
+  "class_core_database_Database" -> "function_core_database_Database__write_data" [label="contains" arrowhead=none color="#616161"];
+  "class_core_database_Database" -> "function_core_database_Database_count" [label="contains" arrowhead=none color="#616161"];
+  "class_core_database_Database" -> "function_core_database_Database_delete" [label="contains" arrowhead=none color="#616161"];
+  "class_core_database_Database" -> "function_core_database_Database_find" [label="contains" arrowhead=none color="#616161"];
+  "class_core_database_Database" -> "function_core_database_Database_insert" [label="contains" arrowhead=none color="#616161"];
+  "class_core_database_Database" -> "function_core_database_Database_load_schema" [label="contains" arrowhead=none color="#616161"];
+  "class_core_database_Database" -> "function_core_database_Database_show_all" [label="contains" arrowhead=none color="#616161"];
+  "class_core_database_Database" -> "function_core_database_Database_update" [label="contains" arrowhead=none color="#616161"];
+  "module_config" -> "class_config_DataStructure" [label="contains" arrowhead=none color="#616161"];
+  "module_core_database" -> "class_core_database_Database" [label="contains" arrowhead=none color="#616161"];
+  "module_core_schema_manager" -> "function_core_schema_manager_load_schema" [label="contains" arrowhead=none color="#616161"];
+  "module_core_schema_manager" -> "function_core_schema_manager_validate" [label="contains" arrowhead=none color="#616161"];
+  "module_core_schema_manager" -> "function_core_schema_manager_validate_records" [label="contains" arrowhead=none color="#616161"];
+  "module_core_storage" -> "function_core_storage_append_json" [label="contains" arrowhead=none color="#616161"];
+  "module_core_storage" -> "function_core_storage_clear_json" [label="contains" arrowhead=none color="#616161"];
+  "module_core_storage" -> "function_core_storage_read_json" [label="contains" arrowhead=none color="#616161"];
+  "module_core_storage" -> "function_core_storage_write_json" [label="contains" arrowhead=none color="#616161"];
+  "module_main" -> "function_main_main" [label="contains" arrowhead=none color="#616161"];
+  "module_main" -> "function_main_parse_input" [label="contains" arrowhead=none color="#616161"];
+  "module_main" -> "function_main_print_menu" [label="contains" arrowhead=none color="#616161"];
+  "module_operations_crud" -> "function_operations_crud_count_records" [label="contains" arrowhead=none color="#616161"];
+  "module_operations_crud" -> "function_operations_crud_delete_records" [label="contains" arrowhead=none color="#616161"];
+  "module_operations_crud" -> "function_operations_crud_find_records" [label="contains" arrowhead=none color="#616161"];
+  "module_operations_crud" -> "function_operations_crud_insert_record" [label="contains" arrowhead=none color="#616161"];
+  "module_operations_crud" -> "function_operations_crud_show_all_records" [label="contains" arrowhead=none color="#616161"];
+  "module_operations_crud" -> "function_operations_crud_update_records" [label="contains" arrowhead=none color="#616161"];
+  "module_operations_query" -> "function_operations_query_advanced_filter" [label="contains" arrowhead=none color="#616161"];
+  "module_operations_query" -> "function_operations_query_filter_records" [label="contains" arrowhead=none color="#616161"];
+  "module_operations_query" -> "function_operations_query_match_query" [label="contains" arrowhead=none color="#616161"];
+  "module_config" -> "module_os" [label="imports" style=dashed color="#546E7A"];
+  "module_config" -> "module_sys" [label="imports" style=dashed color="#546E7A"];
+  "module_core_database" -> "module_os" [label="imports" style=dashed color="#546E7A"];
+  "module_core_database" -> "module_src_config" [label="imports" style=dashed color="#546E7A"];
+  "module_core_database" -> "module_src_core_schema_manager" [label="imports" style=dashed color="#546E7A"];
+  "module_core_database" -> "module_src_core_storage" [label="imports" style=dashed color="#546E7A"];
+  "module_core_database" -> "module_src_operations_query" [label="imports" style=dashed color="#546E7A"];
+  "module_core_database" -> "module_typing" [label="imports" style=dashed color="#546E7A"];
+  "module_core_schema_manager" -> "module_json" [label="imports" style=dashed color="#546E7A"];
+  "module_core_schema_manager" -> "module_typing" [label="imports" style=dashed color="#546E7A"];
+  "module_core_storage" -> "module_json" [label="imports" style=dashed color="#546E7A"];
+  "module_core_storage" -> "module_os" [label="imports" style=dashed color="#546E7A"];
+  "module_core_storage" -> "module_tempfile" [label="imports" style=dashed color="#546E7A"];
+  "module_core_storage" -> "module_typing" [label="imports" style=dashed color="#546E7A"];
+  "module_main" -> "module_os" [label="imports" style=dashed color="#546E7A"];
+  "module_main" -> "module_src_core_database" [label="imports" style=dashed color="#546E7A"];
+  "module_main" -> "module_src_operations_crud" [label="imports" style=dashed color="#546E7A"];
+  "module_main" -> "module_sys" [label="imports" style=dashed color="#546E7A"];
+  "module_operations_crud" -> "module_src_core_database" [label="imports" style=dashed color="#546E7A"];
+  "module_operations_crud" -> "module_typing" [label="imports" style=dashed color="#546E7A"];
+  "module_operations_query" -> "module_typing" [label="imports" style=dashed color="#546E7A"];
+
+  subgraph cluster_legend {
+    label="Legend";
+    fontsize=12;
+    style=dashed;
+
+    key_module [label="module", shape=folder, fillcolor="#ECEFF1"];
+    key_class [label="class", shape=box, fillcolor="#E3F2FD"];
+    key_function [label="function", shape=oval, fillcolor="#E8F5E9"];
+    key_method [label="method", shape=oval, fillcolor="#FFF3E0"];
+  }
+
+}
